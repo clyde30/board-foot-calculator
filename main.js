@@ -12,6 +12,8 @@ function calculateBF() {
     let cost = costInput.value;
     let bf = (length * width * thickness) / 12;
     total.innerHTML = "$" + bf * cost;
+
+    console.log(bf);
 }
 
 lengthInput.addEventListener('input', calculateBF);
