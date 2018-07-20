@@ -4,36 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">    
+    <link rel="stylesheet" href="styles.css">    
     <title>Board Foot Calculator</title>
 </head>
 <body>
-    <div class="jumbotron">
-        <h1>Board Foot Calculator</h1>
-        <form>
-            <div class="form-group">
-                <label for="length">Length</label>
-                <input type="number" class="form-control" name="length">
+    <section class="hero is-dark is-small is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Holdfast Creations</h1>
+          <h2 class="subtitle">Board Foot Calculator</h2>
+        </div>
+      </div>
+    </section>
+      <section class="section">
+            <div class="container">
+                <div class="field">
+                    <label class="label">Length</label>
+                    <div class="control">
+                        <input class="input" type="text" name="length">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Width</label>
+                    <div class="control">
+                        <input class="input" type="text" name="width">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Thickness</label>
+                    <div class="control">
+                        <input class="input" type="text" name="thickness">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Cost</label>
+                    <div class="control">
+                        <input class="input" type="text" name="cost">
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="width">Width</label>
-                <input type="number" class="form-control" name="width">
+        </section>
+        <section class="section is-danger">
+            <div class="container">
+            <h2 class="subtitle">Cost</h2>
+
+                <div class="total">$100</div>            
             </div>
-            <div class="form-group">
-                <label for="thickness">Thickness</label>
-                <input type="number" class="form-control" name="thickness">
-            </div>
-            <div class="form-group">
-                <label for="cost">Cost</label>
-                <input type="number" class="form-control" name="cost">
-            </div>
-        </form>
-        <!-- <button class='btn btn-primary'>submit</button> -->
-        <div class="total">$100</div>
-    </div>
-    <script type="text/javascript" src="main.js"></script>
+        </section>
+    <script type="text/javascript" src="main.js"></script>      
 </body>
 </html>
