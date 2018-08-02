@@ -17,39 +17,48 @@
         </div>
       </div>
     </section>
+    <!-- <section class="section">
+        <div class="container">
+            <div class="total"></div>
+        </div>
+    </section> -->
       <section class="section">
             <div class="container">
-                <div class="field">
-                    <label class="label">Length</label>
-                    <div class="control">
-                        <input class="input" type="text" name="length">
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-vertical is-6">
+                        <div class="is-child">
+                            <div class="tile is-child notification is-warning">
+                                <div class="total">$100</div>
+                                <div class="field">
+                                    <label class="label">Cost</label>
+                                    <div class="control">
+                                        <input class="input" type="text" name="cost" placeholder="$">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tile is-child notification is-primary">
+                                <div class="field">
+                                    <label class="label">Length</label>
+                                    <div class="control">
+                                        <input class="input" type="text" name="length" placeholder="Feet">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Width</label>
+                                    <div class="control">
+                                        <input class="input" type="text" name="width" placeholder="Inches">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label">Thickness</label>
+                                    <div class="control">
+                                        <input class="input" type="text" name="thickness" placeholder="Inches">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="field">
-                    <label class="label">Width</label>
-                    <div class="control">
-                        <input class="input" type="text" name="width">
-                    </div>
-                </div>
-                <div class="field">
-                    <label class="label">Thickness</label>
-                    <div class="control">
-                        <input class="input" type="text" name="thickness">
-                    </div>
-                </div>
-                <div class="field">
-                    <label class="label">Cost</label>
-                    <div class="control">
-                        <input class="input" type="text" name="cost">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section is-danger">
-            <div class="container">
-            <h2 class="subtitle">Cost</h2>
-
-                <div class="total">$100</div>            
             </div>
         </section>
     <script type="text/javascript" src="main.js"></script>      
