@@ -3,8 +3,8 @@ const app = express();
 
 app.use(express.static(__dirname))
 
-app.listen(8080, function() {
-    console.log("Listening on 8080");
+app.listen(5500, function() {
+    console.log("Listening on 5500");
 });
 
 app.get('/', function (req, res) {
