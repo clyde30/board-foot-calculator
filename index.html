@@ -21,78 +21,88 @@
     </section>
       <section class="section">
             <div class="container">
-                <div class="tile is-ancestor is-6 bf-app-container">
+                <div class="tile is-ancestor bf-app-container">
                     <div class="tile is-parent is-vertical">
                         <div class="is-child">
                             <div class="tile is-child notification has-background-grey-lighter">
-                                <div class="field">
-                                    <label class="label">Price (per board foot)</label>
-                                    <div class="control">
-                                        <input class="input" type="text" name="cost" placeholder="$">
+                                <div class="columns">
+                                  <div class="column is-6-mobile ">
+                                    <div class="field">
+                                        <label class="label">Price per BF</label>
+                                        <div class="control">
+                                            <input class="input" type="text" name="cost" placeholder="$">
+                                        </div>
                                     </div>
+                                  </div>
+                                  <div class="column">
+                                    <div class="field">
+                                        <label class="label">Length (ft)</label>
+                                        <div class="select">
+                                            <select name="length">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="column">
+                                    <div class="field">
+                                        <label class="label">Width (in)</label>
+                                        <div class="select">
+                                            <select name="width">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="column">
+                                    <div class="field">
+                                        <label class="label">Thickness</label>
+                                        <div class="select">
+                                            <select name="thickness">
+                                                <option value="1">4/4</option>
+                                                <option value="1.25">5/4</option>
+                                                <option value="1.50">6/4</option>
+                                                <option value="2">8/4</option>
+                                                <option value="3">12/4</option>
+                                            </select>
+                                        </div>
+                                    </div>                                
+                                  </div>
                                 </div>
-                                <div class="field">
-                                    <label class="label">Length (ft)</label>
-                                    <div class="select">
-                                        <select name="length">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                            <option value="11">11</option>
-                                            <option value="12">12</option>
-                                            <option value="13">13</option>
-                                            <option value="14">14</option>
-                                            <option value="15">15</option>
-                                            <option value="16">16</option>
-                                            <option value="17">17</option>
-                                            <option value="18">18</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Width (in)</label>
-                                    <div class="select">
-                                        <select name="width">
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                            <option value="7">7</option>
-                                            <option value="8">8</option>
-                                            <option value="9">9</option>
-                                            <option value="10">10</option>
-                                            <option value="11">11</option>
-                                            <option value="12">12</option>
-                                            <option value="13">13</option>
-                                            <option value="14">14</option>
-                                            <option value="15">15</option>
-                                            <option value="16">16</option>
-                                            <option value="17">17</option>
-                                            <option value="18">18</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Thickness (quarters)</label>
-                                    <div class="select">
-                                        <select name="thickness">
-                                            <option value="1">4/4</option>
-                                            <option value="1.25">5/4</option>
-                                            <option value="1.50">6/4</option>
-                                            <option value="2">8/4</option>
-                                            <option value="3">12/4</option>
-                                        </select>
-                                    </div>
-                                </div>                                
                             </div>
                             <div class="tile is-child notification is-dark has-text-centered is-size-3">
                                 <div class="total"></div>
